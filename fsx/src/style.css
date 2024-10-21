@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  min-height: 200px;
+  min-width: 500px;
+}
+
+body {
+  margin: 0;
+}
+
+#__plasmo {
+  height: 100vh;
+}
